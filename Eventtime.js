@@ -61,7 +61,6 @@ class Bounce {
       r = random(255);
       g = random(255);
       b = random(255);
-      boop.play();
       this.count += 1;
     }
       if (this.x > width - (this.d + 10) || this.x < (this.d + 10)) {
