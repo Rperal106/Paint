@@ -5,7 +5,7 @@ let r, g, b;
 
 
 function preload() {
-//boop = loadSound('assets/dootdoot.mp3');
+boop = loadSound('assets/dootdoot.mp3');
 }
 
 function setup() {
@@ -61,7 +61,7 @@ class Bounce {
       r = random(255);
       g = random(255);
       b = random(255);
-  //    boop.play();
+      boop.play();
       this.count += 1;
     }
       if (this.x > width - (this.d + 10) || this.x < (this.d + 10)) {
@@ -69,7 +69,7 @@ class Bounce {
         r = random(255);
         g = random(255);
         b = random(255);
-    //    boop.play();
+        boop.play();
        this.count += 1;
       }
 
